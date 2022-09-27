@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import hidden_4
-    for s in dir(hidden_4):
-        if s[:2] != "_":
-            print("{:s}".format(s))
+    for name in dir(hidden_4):
+        if not name.startswith("_"):
+            print("{:s}".format(name))
