@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def matrix_divided(matrix, div):
     for i in range(2):
         for j in range(3):
@@ -12,5 +13,3 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
                 
     return([[round(i / div, 2) for i in l] for l in matrix])
-        
-print(matrix_divided(matrix, 4))
