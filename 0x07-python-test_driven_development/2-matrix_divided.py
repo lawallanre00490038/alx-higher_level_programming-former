@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+This is a modeule that import a function called 
+matrix_divided from which series of test is carried out
+"""
 def matrix_divided(matrix, div):
+    """
+    This is a modeule that import a function called 
+    matrix_divided from which series of test is carried out
+    """
     for i in range(2):
         for j in range(3):
             if not isinstance(matrix[i][j], (int, float)):
