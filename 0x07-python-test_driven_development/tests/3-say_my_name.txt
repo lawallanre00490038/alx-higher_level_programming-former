@@ -1,0 +1,6 @@
+`This sis a function that prints a two arguments as a firstname and lastname`
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("lawal", "lanre")
+My name is lawal lanre
