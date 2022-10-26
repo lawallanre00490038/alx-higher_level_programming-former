@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """
-this si the funnction that print all the function of the function
-
+Contains the lookup function
 """
 
+
 def lookup(obj):
-    """the function that prints the info of the functions"""
+    """returns a list of available attributes and methods of an object"""
     return dir(obj)
