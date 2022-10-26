@@ -8,4 +8,4 @@ import json
 
 def to_json_string(my_obj):
     """this is the function"""
-    return json.dumbs(my_obj)
+    return json.dumps(my_obj)
